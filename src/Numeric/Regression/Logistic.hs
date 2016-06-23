@@ -1,5 +1,5 @@
 module Numeric.Regression.Logistic
-  (Model, regress) where
+  (Model, regress, logLikelihood, totalLogLikelihood) where
 
 import Control.Applicative
 import Data.Foldable
